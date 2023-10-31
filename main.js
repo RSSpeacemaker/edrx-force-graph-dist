@@ -1,4 +1,4 @@
-import { CSS2DRenderer, CSS2DObject } from './CSS2DRenderer.js';
+import { CSS2DRenderer, CSS2DObject } from './modules/CSS2DRenderer.js';
 
 const backgroundColor = "#599CFF";
 
