@@ -1,0 +1,12 @@
+{
+  "name": "edrx-force-graph-dist",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "https://github.com/RSSpeacemaker/edrx-force-graph-dist.git",
+  "author": "RSSpeacemaker <smith.peacemaker@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "tsne-js": "^1.0.3"
+  }
+}
