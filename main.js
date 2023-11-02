@@ -40,12 +40,9 @@ function renderGraph() {
     .numDimensions(3)
     .nodeThreeObject(node => {
       node.color = colors.yellow
-      // node.x = 0.0
-      // node.y = 0.0
-      // node.z = 0.0
       const nodeEl = document.createElement('div');
-      nodeEl.textContent = node.name;
-      nodeEl.className = 'node-label';
+      nodeEl.textContent =            node.name;
+      nodeEl.className =              'node-label';
       nodeEl.style.color =            colors.white;
       nodeEl.style.opacity =          "100%";
       nodeEl.style.borderRadius =     "30px";
@@ -54,6 +51,8 @@ function renderGraph() {
       nodeEl.style.fontSize =         "1.2em";
       nodeEl.style.marginTop =        "20px";
       nodeEl.style.opacity =          "80%";
+
+      node.name = null
 
       return new CSS2DObject(nodeEl);
     })
