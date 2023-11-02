@@ -78,9 +78,9 @@ let embeddings_visual = model.getOutputScaled();
 nodes = data_razors.map((razor, index) => ({
     id:razor.razorID,
     name:razor.razor,
-    x:embeddings_visual[index][0],
-    y:embeddings_visual[index][1],
-    z:embeddings_visual[index][2]
+    fx:embeddings_visual[index][0] * 500,
+    fy:embeddings_visual[index][1] * 500,
+    fz:embeddings_visual[index][2] * 500
 }))
 // nodes.push({
 //     id:"index",

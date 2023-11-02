@@ -54,6 +54,7 @@ function renderGraph() {
       nodeEl.style.fontSize =         "1.2em";
       nodeEl.style.marginTop =        "20px";
       nodeEl.style.opacity =          "80%";
+      node.name = null
 
       return new CSS2DObject(nodeEl);
     })
